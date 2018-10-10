@@ -1,0 +1,25 @@
+PODS:
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - Realm (3.7.6):
+    - Realm/Headers (= 3.7.6)
+  - Realm/Headers (3.7.6)
+  - zipzap (8.1.1)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - Realm
+  - zipzap (~> 8.1.1)
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  Realm: 9eaecad54712d6246d08ba34c10f354e4715d7d3
+  zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
+
+PODFILE CHECKSUM: 210533e25d03e194f2172f7e9984a170903b677d
+
+COCOAPODS: 1.4.0

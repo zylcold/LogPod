@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6065D4A34B540107189F9F1F /* libPods-LogPodTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6503E5F49EB675C5F828BD /* libPods-LogPodTests.a */; };
+		72C3B41D4A28D58EDEDD0014 /* libPods-LogPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAAD0ECDB9EEC6BF3A99B6A /* libPods-LogPod.a */; };
+		EF78EBFC216DB0A400DED222 /* YLLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EF78EBFA216DB0A400DED222 /* YLLogManager.h */; };
+		EF78EBFD216DB0A400DED222 /* YLLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF78EBFB216DB0A400DED222 /* YLLogManager.m */; };
+		EF78EC00216DC96C00DED222 /* YLRealmLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EF78EBFE216DC96C00DED222 /* YLRealmLogger.h */; };
+		EF78EC01216DC96C00DED222 /* YLRealmLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EF78EBFF216DC96C00DED222 /* YLRealmLogger.m */; };
+		EF78EC04216DCC0000DED222 /* YLReamHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EF78EC02216DCC0000DED222 /* YLReamHelper.h */; };
+		EF78EC05216DCC0000DED222 /* YLReamHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF78EC03216DCC0000DED222 /* YLReamHelper.m */; };
+		EF78EC0B216DCDC400DED222 /* YLLogInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EF78EC09216DCDC400DED222 /* YLLogInfo.h */; };
+		EF78EC0C216DCDC400DED222 /* YLLogInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF78EC0A216DCDC400DED222 /* YLLogInfo.m */; };
+		EFFC1730216CC01600BD9BB1 /* LogPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFC1726216CC01600BD9BB1 /* LogPod.framework */; };
+		EFFC1735216CC01700BD9BB1 /* LogPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFC1734216CC01700BD9BB1 /* LogPodTests.m */; };
+		EFFC1743216D9B6A00BD9BB1 /* YLLog.h in Headers */ = {isa = PBXBuildFile; fileRef = EFFC1741216D9B6A00BD9BB1 /* YLLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFFC1744216D9B6A00BD9BB1 /* YLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFC1742216D9B6A00BD9BB1 /* YLLog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFFC1731216CC01600BD9BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFFC171D216CC01600BD9BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFFC1725216CC01600BD9BB1;
+			remoteInfo = LogPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B1E3473E3EADC887E7299E3 /* Pods-LogPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogPod.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-LogPod/Pods-LogPod.debug.xcconfig"; sourceTree = "<group>"; };
+		69F09041EE74DA8F926936A1 /* Pods-LogPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogPod.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LogPod/Pods-LogPod.release.xcconfig"; sourceTree = "<group>"; };
+		8D6503E5F49EB675C5F828BD /* libPods-LogPodTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogPodTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAAD0ECDB9EEC6BF3A99B6A /* libPods-LogPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF78EBFA216DB0A400DED222 /* YLLogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLogManager.h; sourceTree = "<group>"; };
+		EF78EBFB216DB0A400DED222 /* YLLogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLogManager.m; sourceTree = "<group>"; };
+		EF78EBFE216DC96C00DED222 /* YLRealmLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLRealmLogger.h; sourceTree = "<group>"; };
+		EF78EBFF216DC96C00DED222 /* YLRealmLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRealmLogger.m; sourceTree = "<group>"; };
+		EF78EC02216DCC0000DED222 /* YLReamHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLReamHelper.h; sourceTree = "<group>"; };
+		EF78EC03216DCC0000DED222 /* YLReamHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLReamHelper.m; sourceTree = "<group>"; };
+		EF78EC09216DCDC400DED222 /* YLLogInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLogInfo.h; sourceTree = "<group>"; };
+		EF78EC0A216DCDC400DED222 /* YLLogInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLogInfo.m; sourceTree = "<group>"; };
+		EFFC1726216CC01600BD9BB1 /* LogPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFC172A216CC01600BD9BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFFC172F216CC01600BD9BB1 /* LogPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFC1734216CC01700BD9BB1 /* LogPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogPodTests.m; sourceTree = "<group>"; };
+		EFFC1736216CC01700BD9BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFFC1741216D9B6A00BD9BB1 /* YLLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLog.h; sourceTree = "<group>"; };
+		EFFC1742216D9B6A00BD9BB1 /* YLLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLog.m; sourceTree = "<group>"; };
+		FB4983474636068B5760C95E /* Pods-LogPodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogPodTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LogPodTests/Pods-LogPodTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDD9EAE6F99D9A2CECBC94BF /* Pods-LogPodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogPodTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-LogPodTests/Pods-LogPodTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFFC1723216CC01600BD9BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C3B41D4A28D58EDEDD0014 /* libPods-LogPod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFC172C216CC01600BD9BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFC1730216CC01600BD9BB1 /* LogPod.framework in Frameworks */,
+				6065D4A34B540107189F9F1F /* libPods-LogPodTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B6C81936CD61E6A8CE6706 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEAAD0ECDB9EEC6BF3A99B6A /* libPods-LogPod.a */,
+				8D6503E5F49EB675C5F828BD /* libPods-LogPodTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDB9AFF97A5DE2B6DF542797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E3473E3EADC887E7299E3 /* Pods-LogPod.debug.xcconfig */,
+				69F09041EE74DA8F926936A1 /* Pods-LogPod.release.xcconfig */,
+				FDD9EAE6F99D9A2CECBC94BF /* Pods-LogPodTests.debug.xcconfig */,
+				FB4983474636068B5760C95E /* Pods-LogPodTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFFC171C216CC01600BD9BB1 = {
+			isa = PBXGroup;
+			children = (
+				EFFC1728216CC01600BD9BB1 /* LogPod */,
+				EFFC1733216CC01600BD9BB1 /* LogPodTests */,
+				EFFC1727216CC01600BD9BB1 /* Products */,
+				CDB9AFF97A5DE2B6DF542797 /* Pods */,
+				22B6C81936CD61E6A8CE6706 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFFC1727216CC01600BD9BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFFC1726216CC01600BD9BB1 /* LogPod.framework */,
+				EFFC172F216CC01600BD9BB1 /* LogPodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFFC1728216CC01600BD9BB1 /* LogPod */ = {
+			isa = PBXGroup;
+			children = (
+				EFFC172A216CC01600BD9BB1 /* Info.plist */,
+				EFFC1741216D9B6A00BD9BB1 /* YLLog.h */,
+				EFFC1742216D9B6A00BD9BB1 /* YLLog.m */,
+				EF78EBFA216DB0A400DED222 /* YLLogManager.h */,
+				EF78EBFB216DB0A400DED222 /* YLLogManager.m */,
+				EF78EBFE216DC96C00DED222 /* YLRealmLogger.h */,
+				EF78EBFF216DC96C00DED222 /* YLRealmLogger.m */,
+				EF78EC02216DCC0000DED222 /* YLReamHelper.h */,
+				EF78EC03216DCC0000DED222 /* YLReamHelper.m */,
+				EF78EC09216DCDC400DED222 /* YLLogInfo.h */,
+				EF78EC0A216DCDC400DED222 /* YLLogInfo.m */,
+			);
+			path = LogPod;
+			sourceTree = "<group>";
+		};
+		EFFC1733216CC01600BD9BB1 /* LogPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFFC1734216CC01700BD9BB1 /* LogPodTests.m */,
+				EFFC1736216CC01700BD9BB1 /* Info.plist */,
+			);
+			path = LogPodTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EFFC1721216CC01600BD9BB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFC1743216D9B6A00BD9BB1 /* YLLog.h in Headers */,
+				EF78EC0B216DCDC400DED222 /* YLLogInfo.h in Headers */,
+				EF78EBFC216DB0A400DED222 /* YLLogManager.h in Headers */,
+				EF78EC00216DC96C00DED222 /* YLRealmLogger.h in Headers */,
+				EF78EC04216DCC0000DED222 /* YLReamHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EFFC1725216CC01600BD9BB1 /* LogPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFC173A216CC01700BD9BB1 /* Build configuration list for PBXNativeTarget "LogPod" */;
+			buildPhases = (
+				8200663088ED79A098E32890 /* [CP] Check Pods Manifest.lock */,
+				EFFC1721216CC01600BD9BB1 /* Headers */,
+				EFFC1722216CC01600BD9BB1 /* Sources */,
+				EFFC1723216CC01600BD9BB1 /* Frameworks */,
+				EFFC1724216CC01600BD9BB1 /* Resources */,
+				CC5E27F4B667DFCF36C601CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogPod;
+			productName = LogPod;
+			productReference = EFFC1726216CC01600BD9BB1 /* LogPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFFC172E216CC01600BD9BB1 /* LogPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFC173D216CC01700BD9BB1 /* Build configuration list for PBXNativeTarget "LogPodTests" */;
+			buildPhases = (
+				9E01C0CBB82A1A81F5B9B11B /* [CP] Check Pods Manifest.lock */,
+				EFFC172B216CC01600BD9BB1 /* Sources */,
+				EFFC172C216CC01600BD9BB1 /* Frameworks */,
+				EFFC172D216CC01600BD9BB1 /* Resources */,
+				18F76AABF6015AD7F69F4934 /* [CP] Embed Pods Frameworks */,
+				65BD23199A87824DD1EEE0F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFFC1732216CC01600BD9BB1 /* PBXTargetDependency */,
+			);
+			name = LogPodTests;
+			productName = LogPodTests;
+			productReference = EFFC172F216CC01600BD9BB1 /* LogPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFFC171D216CC01600BD9BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Dadao;
+				TargetAttributes = {
+					EFFC1725216CC01600BD9BB1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EFFC172E216CC01600BD9BB1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EFFC1720216CC01600BD9BB1 /* Build configuration list for PBXProject "LogPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFFC171C216CC01600BD9BB1;
+			productRefGroup = EFFC1727216CC01600BD9BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFFC1725216CC01600BD9BB1 /* LogPod */,
+				EFFC172E216CC01600BD9BB1 /* LogPodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFFC1724216CC01600BD9BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFC172D216CC01600BD9BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18F76AABF6015AD7F69F4934 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LogPodTests/Pods-LogPodTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65BD23199A87824DD1EEE0F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LogPodTests/Pods-LogPodTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8200663088ED79A098E32890 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E01C0CBB82A1A81F5B9B11B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogPodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC5E27F4B667DFCF36C601CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LogPod/Pods-LogPod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFFC1722216CC01600BD9BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF78EC01216DC96C00DED222 /* YLRealmLogger.m in Sources */,
+				EF78EC0C216DCDC400DED222 /* YLLogInfo.m in Sources */,
+				EFFC1744216D9B6A00BD9BB1 /* YLLog.m in Sources */,
+				EF78EBFD216DB0A400DED222 /* YLLogManager.m in Sources */,
+				EF78EC05216DCC0000DED222 /* YLReamHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFC172B216CC01600BD9BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFC1735216CC01700BD9BB1 /* LogPodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFFC1732216CC01600BD9BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFFC1725216CC01600BD9BB1 /* LogPod */;
+			targetProxy = EFFC1731216CC01600BD9BB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFFC1738216CC01700BD9BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFFC1739216CC01700BD9BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFFC173B216CC01700BD9BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B1E3473E3EADC887E7299E3 /* Pods-LogPod.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LogPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZXingObjc.LogPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EFFC173C216CC01700BD9BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F09041EE74DA8F926936A1 /* Pods-LogPod.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LogPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZXingObjc.LogPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EFFC173E216CC01700BD9BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD9EAE6F99D9A2CECBC94BF /* Pods-LogPodTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LogPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZXingObjc.LogPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFFC173F216CC01700BD9BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4983474636068B5760C95E /* Pods-LogPodTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LogPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZXingObjc.LogPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFFC1720216CC01600BD9BB1 /* Build configuration list for PBXProject "LogPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFC1738216CC01700BD9BB1 /* Debug */,
+				EFFC1739216CC01700BD9BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFC173A216CC01700BD9BB1 /* Build configuration list for PBXNativeTarget "LogPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFC173B216CC01700BD9BB1 /* Debug */,
+				EFFC173C216CC01700BD9BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFC173D216CC01700BD9BB1 /* Build configuration list for PBXNativeTarget "LogPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFC173E216CC01700BD9BB1 /* Debug */,
+				EFFC173F216CC01700BD9BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFFC171D216CC01600BD9BB1 /* Project object */;
+}
